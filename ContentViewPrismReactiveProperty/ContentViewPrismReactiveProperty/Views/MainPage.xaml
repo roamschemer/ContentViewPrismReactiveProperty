@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:cont="clr-namespace:ContentViewPrismReactiveProperty.Views"
              x:Class="ContentViewPrismReactiveProperty.Views.MainPage"
-             Title="{Binding Title}">
+             Title="実験">
 
     <StackLayout>
-        <cont:MyView />
+        <cont:MyViewPage />
     </StackLayout>
 
 </ContentPage>

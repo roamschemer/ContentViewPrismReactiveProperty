@@ -11,13 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="ContentViews\Views\MyView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
+    <Folder Include="ContentViews\ViewModels\" />
+    <Folder Include="ContentViews\Views\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <EmbeddedResource Update="Views\MyViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

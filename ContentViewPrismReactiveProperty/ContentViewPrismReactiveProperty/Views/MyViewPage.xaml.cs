@@ -2,9 +2,9 @@
 
 namespace ContentViewPrismReactiveProperty.Views
 {
-    public partial class MyView : ContentView
+    public partial class MyViewPage : ContentView
     {
-        public MyView()
+        public MyViewPage()
         {
             InitializeComponent();
         }
