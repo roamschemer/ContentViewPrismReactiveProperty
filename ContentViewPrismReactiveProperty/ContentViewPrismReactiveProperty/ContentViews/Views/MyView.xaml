@@ -15,10 +15,10 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Label Text ="Hello!ContentView!" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="0" />
-            <Button Text ="ボタン1"  Grid.Column="0" Grid.Row="1" />
-            <Button Text="ボタン2"  Grid.Column="1" Grid.Row="1" />
-            <Button Text="ボタン3" Grid.Column="2" Grid.Row="1" />
+            <Label Text ="{Binding Text.Value}" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="0" />
+            <Button Text ="ボタン1" Command="{Binding Button1}" Grid.Column="0" Grid.Row="1" />
+            <Button Text="ボタン2" Command="{Binding Button2}" Grid.Column="1" Grid.Row="1" />
+            <Button Text="ボタン3" Command="{Binding Button3}" Grid.Column="2" Grid.Row="1" />
         </Grid>
     </ContentView.Content>
 </ContentView>
