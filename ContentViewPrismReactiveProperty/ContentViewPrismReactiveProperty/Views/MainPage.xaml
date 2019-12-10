@@ -6,7 +6,11 @@
              Title="実験">
 
     <StackLayout>
-        <cont:MyViewPage />
+        <Label Text="ここから下がカスタムコントロール" />
+        <cont:MyViewPage TextValue="{Binding Text.Value}"/>
+        <Label Text="ここから下が親ページ" />
+        <Label Text="{Binding Text.Value}"/>
+        <Button Text="親ボタン カスコンの文字列が変わったら成功" Command="{Binding Button}"/>
     </StackLayout>
 
 </ContentPage>

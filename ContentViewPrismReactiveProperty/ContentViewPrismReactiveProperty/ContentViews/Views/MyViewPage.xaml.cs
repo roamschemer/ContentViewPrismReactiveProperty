@@ -1,8 +1,9 @@
-﻿using Xamarin.Forms;
+﻿using ContentViewPrismReactiveProperty.Controls;
+using Xamarin.Forms;
 
 namespace ContentViewPrismReactiveProperty.Views
 {
-    public partial class MyViewPage : ContentView
+    public partial class MyViewPage : MyCustomContentView
     {
         public MyViewPage()
         {
